@@ -2,8 +2,63 @@
 <html>
   <head>
     <title>My website</title>
+    <style>
+      .grid {
+        background: green;
+        display: grid;
+        padding: 20px;
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+        grid-template-columns: 200px 200px auto;
+      }
+      .grid-item {
+        background: white;
+        padding: 20px;
+        font-size: 20px;
+        text-align: center;
+      }
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .container > div {
+        background-color: springgreen;
+        font-size: 20px;
+        margin: 20px;
+        padding: 20px;
+        width: 200px;
+        height: 200px;
+      }
+    </style>
   </head>
   <body>
-    Hello World!
+    <div class="grid">
+      <div class="grid-item">1</div>
+      <div class="grid-item">2</div>
+      <div class="grid-item">3</div>
+      <div class="grid-item">4</div>
+      <div class="grid-item">5</div>
+      <div class="grid-item">6</div>
+      <div class="grid-item">7</div>
+      <div class="grid-item">8</div>
+      <div class="grid-item">9</div>
+      <div class="grid-item">10</div>
+      <div class="grid-item">11</div>
+      <div class="grid-item">12</div>
+    </div>
+    <div class="container">
+      <div>A. Lorem ipsum dolor sit amet</div>
+      <div>B. Lorem ipsum dolor sit amet</div>
+      <div>C. Lorem ipsum dolor sit amet</div>
+      <div>D. Lorem ipsum dolor sit amet</div>
+      <div>E. Lorem ipsum dolor sit amet</div>
+      <div>F. Lorem ipsum dolor sit amet</div>
+      <div>G. Lorem ipsum dolor sit amet</div>
+      <div>H. Lorem ipsum dolor sit amet</div>
+      <div>I. Lorem ipsum dolor sit amet</div>
+      <div>J. Lorem ipsum dolor sit amet</div>
+      <div>K. Lorem ipsum dolor sit amet</div>
+      <div>L. Lorem ipsum dolor sit amet</div>
+    </div>
   </body>
 </html>
